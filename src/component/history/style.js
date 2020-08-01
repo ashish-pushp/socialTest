@@ -1,0 +1,48 @@
+import { StyleSheet } from 'react-native';
+export default styles = StyleSheet.create({
+    container:{
+        flex:1, 
+        marginLeft:20, 
+        marginRight:20, 
+        marginTop:10, 
+        borderRadius:6, 
+        elevation:5, 
+        backgroundColor:'#fff', 
+        padding:15
+    },
+    titleContainer:{
+        flex:1, 
+        flexDirection:'row'
+    },
+    titleText: {
+        fontSize:16, 
+        fontWeight:'bold', 
+        color:'#000000'
+    },
+    detailContainer:{
+        flex:1, 
+        paddingVertical:10
+    },
+    detailText:{
+        fontSize:13, 
+        fontWeight:'bold', 
+        color:'#97A7AD'
+    },
+    linkText:{
+        fontSize:13,
+         fontWeight:'bold', 
+         color:'#000000'
+    },
+    link1:{
+        fontSize:13, 
+        fontWeight:'bold', 
+        color:'blue', 
+        top:3
+    },
+    link2:{
+        fontSize:13, 
+        fontWeight:'bold', 
+        color:'blue', 
+        top:7
+    }
+})    
